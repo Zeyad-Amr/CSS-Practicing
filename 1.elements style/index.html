@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- External Style -->
+    <link rel="stylesheet" href="css/master.css" />
+    <!-- Internal Style -->
+    <style>
+      .titleClass {
+        color: orange;
+      }
+    </style>
+    <title>CSS</title>
+  </head>
+  <body>
+    <!-- 
+        styles overidded as the compiled line by line and its order is
+        external style => internal style => element style (inline)
+        
+     -->
+
+    <p style="color: green">This is a styled paragraph</p>
+    <p style="color: green" class="title-class">
+      This is a styled paragraph with class
+    </p>
+    <p>This is a paragraph</p>
+    <p class="title-class">This is a paragraph with class</p>
+    <p id="title-id">This is a paragraph with id</p>
+  </body>
+</html>

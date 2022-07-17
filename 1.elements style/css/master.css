@@ -1,0 +1,28 @@
+/* 
+selector {
+    property: value;
+    proertyTwo: value2;
+}
+
+
+in general each html element styled by the element selector
+to specialize a certian element => give it a class or id
+and use . with class and # with id
+identifier => class and id
+best practice to name the identifier is kebab case => class-name 
+*/
+
+p {
+  color: red;
+  font-size: 60px;
+}
+
+.title-class {
+  color: blue;
+  font-size: 40px;
+}
+
+#title-id {
+  color: violet;
+  font-size: 20px;
+}

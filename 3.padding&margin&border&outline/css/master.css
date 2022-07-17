@@ -1,0 +1,54 @@
+div {
+  background-color: #ddd;
+
+  /* Top Right Bottom Left*/
+  padding: 10px;
+
+  /* ALL*/
+  /* padding: 10px 20px; */
+  /*Vertical Horizontal */
+  /* padding: 10px 20px 5px 8px; */
+  /* Top Right Bottom Left*/
+  /* padding: 10px 20px 5px;  */
+  /* Top Horizontal Bottom */
+
+  /* You Can specify a certian padding only */
+  /* padding-bottom: 10px; */
+  /* padding-top: 20px; */
+
+  /* Top Right Bottom Left*/
+  /* margin: 100px; */
+  /* ALL*/
+  /* margin: 10px 20px; */
+  /*Vertical Horizontal */
+  /* margin: 10px 20px 5px 8px; */
+  /* Top Right Bottom Left*/
+  /* margin: 10px 20px 5px;  */
+  /* Top Horizontal Bottom */
+
+  /* You Can specify a certian padding only */
+  /* margin-bottom: 10px; */
+  /* margin-top: 20px; */
+
+  /* Margin accept negative values */
+  /* Margin accept prcentage values */
+
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  /* to center element*/
+  /* margin: auto;*/
+  /* you can use margin only*/
+  margin-top: 30px;
+  width: 300px;
+  /* border */
+  border-width: 10px;
+  border-color: blue green red yellow;
+  border-style: solid dashed;
+  border: 10px blue solid; /* Short Hand Border*/
+
+  border-radius: 30px;
+  /* outline: 10px red solid;*/ /* We use outline to make border not of the content*/
+  /* Outline have problems, use  border instead*/
+  box-sizing: border-box; /* Instead of oultine, we can use border with box-sizing:border-box */
+}

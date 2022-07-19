@@ -1,0 +1,65 @@
+/* 
+  Text Color
+  - background-color
+  - color
+  
+  Text Shadow
+  Stytax => texr-shadow: H-Shadow V-Shadow Blur Color
+  
+  Text Alignment
+  - Alignment => text-align: center/start/end/left/right/justify
+  - Direction => ltr/rtl
+  - Vertical Alignment => top middle bottom
+
+  Text Decoration underline line-through ....
+  Text Transformation capitalize lowercase uppercase ..
+
+  Text Spacing
+  - Letter spacing
+  - indent
+  - line height
+  - word spacing + wrapping + white space
+  
+  Text Overflow
+*/
+
+.test1 {
+  background-color: #eee;
+  color: Green;
+  text-shadow: 2px -2px 10px red;
+  text-align: center;
+  direction: ltr;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+img {
+  vertical-align: top;
+}
+
+.test2 {
+  padding: 10px;
+  background-color: #eee;
+  color: Green;
+  letter-spacing: 2px;
+  text-indent: 50px;
+  line-height: 1.7; /* 1.7 = 170%*/
+  word-spacing: 5px;
+  width: 200px;
+  /* white-space: nowrap; */
+  word-break: break-all;
+}
+
+.test3 {
+  background-color: #eee;
+  color: red;
+  padding: 10px;
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.test3:hover {
+  overflow: visible;
+}

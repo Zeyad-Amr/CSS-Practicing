@@ -1,0 +1,60 @@
+/*
+Block (default)
+- Take Full Width If No Width assigned
+- Add Line Break
+- Respect Padding, Margin, Width, Height
+
+Inline
+- Do Not Respect Width and Height 
+- Do Not Add Line Break
+- Respect Padding and Margin [ Just Left + Right]
+- Elements inline
+
+Inline-Block
+- Elements inline
+- Respect Padding, Margin, Width, Height
+
+*/
+
+div {
+  background-color: #eee;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  height: 30px;
+  display: block; /* by default */
+}
+
+span {
+  background-color: #eee;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  height: 30px;
+  display: inline; /* by default */
+}
+
+.inline-block-class {
+  background-color: #eee;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  height: 30px;
+  display: inline-block;
+}
+
+/* 
+  display: none => Hide the element and remove its space
+  visibility: hidden => Hide the element but its space left empty
+
+*/
+
+.dis {
+  background-color: red;
+  display: none;
+}
+
+.vis {
+  background-color: red;
+  visibility: hidden;
+}

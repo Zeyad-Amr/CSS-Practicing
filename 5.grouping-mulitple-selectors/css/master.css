@@ -1,0 +1,32 @@
+.one {
+  border-bottom: 2px solid red;
+  color: red;
+}
+.two {
+  border-bottom: 2px solid orange;
+  color: orange;
+}
+.three {
+  border-bottom: 2px solid blue;
+  color: blue;
+}
+.four {
+  border-bottom: 2px solid green;
+  color: Green;
+}
+.five {
+  border-bottom: 2px solid violet;
+  color: violet;
+}
+
+/* Grouping */
+.one,
+.two,
+.three,
+.four,
+.my-p,
+.general {
+  padding: 20px;
+  margin: 15px 0;
+  background-color: #eee;
+}
